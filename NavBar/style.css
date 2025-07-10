@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    width: 100vw;
+    height: 10vh;
+    background-color: #9163cb;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+ul {
+    list-style: none;
+    display: flex;
+    margin-right: 100px;
+}
+li {
+    padding-left: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+li:hover{
+    transform: scale(1.1);
+    color: white;
+    transition: transform,ease,0.3s;
+}
