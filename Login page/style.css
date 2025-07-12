@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    overflow: hidden;
+}
+
+img {
+    width: 100vw;
+    object-fit: cover;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    background-color: rgba(173, 181, 189, 0.2);
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    top: 100px;
+    left: 500px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    margin-top: 10px;
+}
+
+h5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+}
+.pass{
+    position: relative;
+    justify-self: end;
+}
+.sign{
+    position: relative;
+    justify-self: center;
+    top: 40px;
+}
+input {
+    width: 300px;
+    height: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: white;
+    margin-top: 10px;
+    border: none;
+    color: black;
+}
+button {
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: #F68A7D;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+}
+button:hover{
+    transform: scale(1.03);
+    transition: transform 0.2s ease-in;
+}
+@media screen and (max-width: 768px) {
+    img{
+        height: 100vh;
+    }
+    .form {
+        width: 90%;
+        height: 50%;
+        top: 22%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    input {
+        width: 250px;
+    }
+
+    button {
+        width: 60%;
+    }
+}
