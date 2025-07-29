@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: #343a40;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.box{
+    width: 30px;
+    height: 5px;
+    background-color: white;
+    margin-top: 5px;
+}
+#sidebar{
+    width: 30vw;
+    height: 100vh;
+    background-color: #495057;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: all 0.4s ease-in;
+}
+#first{
+    transform-origin: left;
+    transition: all 0.2s ease-in;
+}
+
+#second{
+    transform-origin: center;
+    transition: all 0.2s ease-in;
+}
+#third{
+    transform-origin: left;
+    transition: all 0.2s ease-in;
+}
