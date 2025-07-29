@@ -1,2 +1,2 @@
 # Html-and-Css
-This repo will contain HTML and CSS programs that I will make.
+This repo will contain HTML,CSS and JS programs that I will make.
